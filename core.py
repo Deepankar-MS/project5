@@ -1,9 +1,9 @@
-"""Core functionality for proj5."""
+"""Core functionality for project5."""
 
-from proj4 import mega_greet
+from project4 import mega_greet
 
 
 def ultra_greet(name: str) -> str:
-    """Return an ultra greeting using proj4."""
+    """Return an ultra greeting using project4."""
     mega_msg = mega_greet(name)
-    return f"{mega_msg} Ultra-enhanced by proj5!"
+    return f"{mega_msg} Ultra-enhanced by project5!"
